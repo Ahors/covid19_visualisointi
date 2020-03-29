@@ -16,7 +16,6 @@ Pyrkisin olla käyttämättä ulkoisia resursseja, jollei ollut pakko. Käyttöl
 Testauksessa käytettiin vain android puhelimia - OnePlus 7t ja Honor 10 - expon oman applikaation kautta.
 Vaikka kehitysympäristön pitäisikin olla suhkoot joustava käyttöalustojen kanssa, niin eri puhelinmalleilla ja käyttöjärjestelmillä voi ilmetä ongelmia.
 
-
 ## Ulkoasu
 
-<img src="assets/covid19_ui.png" width="200" />
+<img src="assets/ui_image.jpg" width="200" />
