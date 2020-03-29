@@ -18,5 +18,5 @@ Vaikka kehitysympäristön pitäisikin olla suhkoot joustava käyttöalustojen k
 
 ## Ulkoasu
 
-Demo ohjalmasta: ![](assets/demo.mp4)
+<img src="assets/demo.gif" width="200" />
 <img src="assets/ui_image.jpg" width="200" />
