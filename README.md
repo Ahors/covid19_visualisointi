@@ -19,4 +19,4 @@ Vaikka kehitysympäristön pitäisikin olla suhkoot joustava käyttöalustojen k
 
 ## Ulkoasu
 
-![](assets/covid19_ui.png)
+<img src="assets/covid19_ui.png" width="200" />
