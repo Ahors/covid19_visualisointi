@@ -12,6 +12,7 @@ import {
 export default function Footer() {
   const [modalStatus, setModalStatus] = useState(false);
   return (
+    //Info modal
     <View style={styles.viewStyle}>
       <Modal visible={modalStatus} animationType="fades" transparent={true}>
         <View style={styles.outerModal}>
@@ -30,7 +31,11 @@ export default function Footer() {
           </View>
         </View>
       </Modal>
-      <TouchableOpacity onPress={() => Linking.openURL("http://google.com")}>
+      <TouchableOpacity
+        onPress={() =>
+          Linking.openURL("https://github.com/Ahors/covid19_visualisointi")
+        }
+      >
         <Image
           source={require("../assets/github_icon.png")}
           style={styles.icon}

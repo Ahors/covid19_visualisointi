@@ -15,7 +15,7 @@ export default function KoronaData() {
   const [pvm, setPVM] = useState([]);
   const apiUrl =
     "https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData";
-  //Format the data to fit the bar chart
+  //Gather the right data for the bar chart's data object
   const chartData = () => {
     let arr = [];
     for (let i = 0; i < 3; i++) {
@@ -45,7 +45,7 @@ export default function KoronaData() {
     return casesPerDay;
   }
   function sortData(d) {
-    //Spaghetti code to gather confirmed, recovered and death amounts
+    //Gather confirmed, recovered and death amounts
     setData([
       d.confirmed[d.confirmed.length - 1].id,
       d.recovered[d.recovered.length - 1].id,
@@ -66,6 +66,7 @@ export default function KoronaData() {
       .finally(() => setGathering(false));
   });
   return isGathering ? (
+    //Show loading icon while fetching data from api
     <LoadingImage></LoadingImage>
   ) : (
     <View style={styles.viewStyle}>
