@@ -1,5 +1,6 @@
 # COVID19_visualisointi
 
+**Projekti oli osa työhakemusta.**
 Projektin tarkoituksena oli visualisoida Suomen koronatilannetta käyttäen React Native expoa ja [HS:n rajapintaa](https://github.com/HS-Datadesk/koronavirus-avoindata).
 
 ## Sovelluksen toiminta ja käytetyt resurssit
